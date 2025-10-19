@@ -27,7 +27,7 @@ else:
             count += 1
     print("Số lượng giá trị nguyên chia hết cho 3 từ m đến n là: ",count)
 
-#0074:Đếm số lượng số chẵn từ m đến n 
+#0074:In số lượng số chẵn từ m đến n 
 m = int(input("Nhập giá trị m: "))
 n = int(input("Nhập giá trị n: "))
 count = 0
