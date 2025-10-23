@@ -132,10 +132,10 @@ else:
 import random
 n = random.randint(1,10)
 while True:
+    a = int(input("Nhập giá trị của a: "))
     if a <= 0:
         print("Dừng trò chơi")
     else:
-        a = int(input("Nhập a: "))
         if n < a:
             print("Số bạn đoán to quá!")
         elif n > a:
