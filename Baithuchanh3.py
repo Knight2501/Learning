@@ -168,6 +168,7 @@ for item in data:
     else:
         result[ten] = [diem]
 print("Tu dien tong hop la:",result)
+
 #18. Tạo danh sách sản phẩm không trùng SKU
 n = input("Nhap danh sach")
 diction = {}
